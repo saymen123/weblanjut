@@ -1,5 +1,5 @@
 FROM python:3.8.5
-ENV PYTHONUNBUFFERED 1
+ENV PYTHONUNBUFFERED 5
 RUN mkdir /app
 # masuk container
 COPY requirements.txt /app/
